@@ -109,35 +109,35 @@ class MyAppState extends State<MyApp> {
             _scaffoldKey.currentState.openDrawer();
           },
         ),
-        actions: <Widget>[
-          Container(
-            padding: EdgeInsets.only(right: 10),
-            child: IconButton(
-              icon: Icon(Icons.info_outline),
-              iconSize: 30,
-              tooltip: "About App",
-              onPressed: () {
-                setState(() {
-                  showAboutDialog(
-                      context: this.context,
-                      applicationIcon: img(),
-                      applicationName: "Stopwatch",
-                      applicationVersion: "Version: 1.0.0",
-                      children: [
-                        Text("Developed by Mohammed Mubarak"),
-                        Text(
-                            "\nThanks for using this app. \nFor any help or feedback, contact the developer at :"),
-                        ListTile(
-                          title: Text("Email:"),
-                          subtitle: Text("mohammedmubarakmk@gmail.com",
-                              style: TextStyle()),
-                        ),
-                  ]);
-                });
-              },
-            ),
-          )
-        ],
+        // actions: <Widget>[
+        //   Container(
+        //     padding: EdgeInsets.only(right: 10),
+        //     child: IconButton(
+        //       icon: Icon(Icons.info_outline),
+        //       iconSize: 30,
+        //       tooltip: "About App",
+        //       onPressed: () {
+        //         setState(() {
+        //           showAboutDialog(
+        //               context: this.context,
+        //               applicationIcon: img(),
+        //               applicationName: "Stopwatch",
+        //               applicationVersion: "Version: 1.0.0",
+        //               children: [
+        //                 Text("Developed by Mohammed Mubarak"),
+        //                 Text(
+        //                     "\nThanks for using this app. \nFor any help or feedback, contact the developer at :"),
+        //                 ListTile(
+        //                   title: Text("Email:"),
+        //                   subtitle: Text("mohammedmubarakmk@gmail.com",
+        //                       style: TextStyle()),
+        //                 ),
+        //           ]);
+        //         });
+        //       },
+        //     ),
+        //   )
+        // ],
       ),
       extendBody: true,
       body: sw(),
