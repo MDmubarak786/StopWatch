@@ -7,7 +7,6 @@
 
 🟢 we can pause , play , and get the lap time like a real watch.
 
-👋 ❤️This is Flutter application.
 
 
 
