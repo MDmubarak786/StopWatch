@@ -17,6 +17,11 @@
 🟢 this is a stop watch with some lovable animation smooth app. 
 
 🟢 we can pause , play , and get the lap time like a real watch.
+👋 ❤️This is Flutter application.
+
+🟢 this is a stop watch with some lovable animation smooth app. 
+
+🟢 we can pause , play , and get the lap time like a real watch.
 
 ```
 
